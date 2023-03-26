@@ -1,0 +1,88 @@
+header{
+     position: sticky;
+     background: rgba(0,151,178,0.5);
+     padding: 10px 0;
+     top: 0;
+     left: 0;
+    
+}
+header img {
+    width: 200px;
+    height: 50px;
+    padding-left: 10px;
+}
+.main{
+    margin-top: 7vh;
+    display: flex;
+    
+}
+.profile{
+    margin: 10px;
+    /* contain: content; */
+}
+.profile img{
+    width: 150px;
+    height: 200px;
+    border: 4px solid #0097b2;
+    /* overflow: hidden; */
+}
+.description{
+    font-size: larger;
+}
+.gridMain{
+    display: grid;
+    grid-template-columns: 20% 20% 30% 30%;
+    grid-template-rows: 40% 20% 40%;
+}
+
+.gridMain div{
+    padding: 5px;
+}
+
+.gridMain img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+}
+
+.item5{
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-end: span 3;
+}
+.item4{
+    grid-row-end: span 3;
+}
+.item3{
+    grid-row-end: span 2;
+}
+
+footer{
+    width: 100%;
+    background: rgba(0,151,178,0.5);
+    text-align: right;
+    left: 0;
+    bottom: 0;
+    /* height: 5vh; */
+    display: block;
+    position: fixed;
+
+}
+
+footer p{
+    padding: 0px;
+    color: white;
+    padding-right: 10px;
+}
+
+body{
+    margin: 0;
+    font-family: 'Josefin Sans';
+
+}
+hr{
+    height: 4px;
+    color: #0097b2;
+    background-color: #0097b2;
+}
